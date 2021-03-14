@@ -1,0 +1,31 @@
+{
+  "name": "inspireNuggetsSlackBot",
+  "version": "1.0.0",
+  "description": "A simple Slackbot that displays random inspiring techie quotes and jokes for developers/designers.",
+  "main": "index.js",
+  "engines": {
+    "node": "10.16.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BolajiAyodeji/inspireNuggetsSlackBot.git"
+  },
+  "author": "Bolaji Ayodeji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BolajiAyodeji/inspireNuggetsSlackBot/issues"
+  },
+  "homepage": "https://github.com/BolajiAyodeji/inspireNuggetsSlackBot#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.0.0",
+    "pingmydyno": "^1.5.1",
+    "slackbots": "^1.2.0"
+  }
+}
